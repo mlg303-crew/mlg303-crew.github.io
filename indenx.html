@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madison Goodson | Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #222;
+            background-color: #f5f7fa;
+        }
+
+        header {
+            background-color: #003b5c;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        nav {
+            background-color: #022f49;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            color: #003b5c;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #003b5c;
+            padding-bottom: 8px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background-color: #e6f1f7;
+            color: #003b5c;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .project {
+            margin-bottom: 25px;
+            padding: 20px;
+            background-color: #f8fafc;
+            border-left: 4px solid #003b5c;
+        }
+
+        .project h3 {
+            color: #003b5c;
+            margin-bottom: 8px;
+        }
+
+        .project a {
+            color: #006699;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #003b5c;
+            color: white;
+            padding: 25px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 5px 8px;
+            }
+
+            section {
+                margin: 20px 10px;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Madison Goodson</h1>
+        <p>Accounting & Information Systems Student | Rutgers University</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+    </nav>
+
+    <main>
+
+        <!-- Personal Statement -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am an Accounting and Information Systems student at Rutgers University
+                who combines division 1 coxswaining, analytical skills, and leadership experience
+                to solve problems and create meaningful results. 
+            </p>
+        </section>
+
+
+        <!-- Skills -->
+        <section id="skills">
+            <h2>Skills</h2>
+
+            <div class="skills">
+                <span class="skill">Microsoft Excel</span>
+                <span class="skill">Microsoft Word</span>
+                <span class="skill">Microsoft PowerPoint</span>
+                <span class="skill">Google Workspace</span>
+                <span class="skill">Communication</span>
+                <span class="skill">Leadership</span>
+                <span class="skill">Team Collaboration</span>
+                <span class="skill">Research</span>
+                <span class="skill">Content Production</span>
+                <span class="skill">Program Coordination</span>
+            </div>
+        </section>
+
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>NJ Real Estate Networking Weekly</h3>
+
+                <p>
+                    Hosted and helped produce a weekly networking show highlighting
+                    events and opportunities for New Jersey real estate professionals.
+                    Researched topics, edited content, coordinated production, and
+                    communicated with organization leadership.
+                </p>
+
+                <br>
+
+                <a href="#" target="_blank">
+                    View Project
+                </a>
+            </div>
+
+
+            <div class="project">
+                <h3>Youth Choir Program Development</h3>
+
+                <p>
+                    Supported the development and launch of a youth choir program,
+                    contributing to recruitment, organization, scheduling, and
+                    rehearsal planning.
+                </p>
+
+                <br>
+
+                <a href="#" target="_blank">
+                    View Project
+                </a>
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; 2026 Madison Goodson | Rutgers University</p>
+    </footer>
+
+</body>
+</html>
